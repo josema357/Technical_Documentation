@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header id="indice">Documentacion Python</header>
+        <ol>
+            <li><a href="#Introduccion" class="nav-link">Introduccion</a></li>
+            <li><a href="#La_Funcion_print()" class="nav-link">La Funcion print()</a></li>
+            <li><a href="#Tipos_de_Datos" class="nav-link">Tipos de Datos</a></li>
+            <li><a href="#Operadores" class="nav-link">Operadores</a></li>
+            <li><a href="#Palabras_clave" class="nav-link">Palabras clave</a></li>
+            <li><a href="#Funcion_round" class="nav-link">Funcion round()</a></li>
+            <li><a href="#Funcion_input" class="nav-link">Funcion input()</a></li>
+            <li><a href="#Condicionalif" class="nav-link">Condicional if</a></li>
+            <li><a href="#Declaracionifelse" class="nav-link">Declaracion if-else</a></li>
+            <li><a href="#Declaracionelif" class="nav-link">Declaracion elif</a></li>
+        </ol>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduccion">
+            <header><strong>Introduccion</strong></header>
+            <p>Python es un lenguaje interpretado. Debido a razones históricas los lenguajes diseñados para ser
+                utilizados en la manera de interpretación a menudo se llaman lenguajes de programación, mientras que los
+                programas fuentes codificados que los usan se llaman scripts.</p>
+            <p>Hay dos formas de transformar un programa de un lenguaje de programación de alto nivel a un lenguaje de
+                maquina:</p>
+            <p>
+            <ul>
+                <li>Compilación: el programa fuente se traduce una vez, obteniendo un archivo que contiene el código
+                    maquina;
+                    ahora puedes distribuir el archivo en todo el mundo, el programa que realiza esta traducción se
+                    llama
+                    compilador o traductor.</li>
+                <li>Interpretación: tú puedes traducir el programa fuente cada vez que se ejecute, el programa que
+                    realiza
+                    este tipo de transformación se denomina interprete, ya que interpreta el código cada vez que está
+                    destinado a ejecutarse, también significa que </li>
+            </ul>
+            </p>
+        </section>
+        <section class="main-section" id="La_Funcion_print()">
+            <header><strong>La Funcion print()</strong> </header>
+            <p>La palabra print que puedes ver aquí es el nombre de la función. Las funciones de Python son más
+                flexibles y pueden contener más contenido que sus parientes matemáticos.
+                Una función es una parte separada del código de computadora el cual es capaz de:
+            <ul>
+                <li>Causar algún efecto: por ejemplo, enviar texto a la terminal, crear un archivo, dibujar una imagen,
+                    reproducir un sonido, etc.</li>
+                <li>Evaluar un valor o algunos valores: por ejemplo, la raíz cuadrada de un valor o la longitud de un
+                    texto
+                    dado.</li>
+            </ul>
+            </p>
+            <code>
+                &nbsp; print("Hola, mundo") <br>
+                &nbsp; print("La funcion print","deja espacios","entre argumentos")
+            </code>
+            <p>Argumentos que espera print():
+                La función print() puede operar con prácticamente todos los tipos de datos ofrecidos por Python.
+                Cadenas, números, caracteres, valores lógicos, objetos.
+                La función print() no evalúa nada.
+            </p>
+        </section>
+        <section class="main-section" id="Tipos_de_Datos">
+            <header><strong> Tipos de Datos</strong></header>
+            <p>Un literal se refiere a datos cuyos valores están determinados por el literal mismo. Se utilizan
+                literales para codificar datos y ponerlos dentro del código. </p>
+            <code>
+                &nbsp; print("2") <br>
+                &nbsp; print(2)
+            </code>
+            <p>Enteros: <br>
+                Los números manejados por las computadoras modernas son de dos tipos: <br>
+                Enteros, es decir, aquellos que no tienen una parte fraccionaria. <br>
+                Números punto-flotantes: o simplemente flotantes, los cuales contienen una parte fraccionaria. <br>
+                La característica del valor numérico que determina el tipo, rango y aplicación se denomina el tipo.
+            </p>
+            <code>
+                &nbsp; print(10) <br>
+                &nbsp; print(300000000) <br>
+                &nbsp; print(3e8)
+            </code>
+            <p>Flotantes: <br>
+                Son números que tienen o pueden tener una parte fraccionaria después del punto decimal. Python acepta
+                2.5 mas no 2,5 debido a que la coma tiene su propio significado en Python.
+            </p>
+            <code>
+                &nbsp; print(4.2) <br>
+                &nbsp; print(0.45)
+            </code>
+            <p>Cadenas: <br>
+                Las cadenas se emplean cuando se requiere procesar texto. Las cadenas requieren comillas, así como los
+                flotantes necesitan punto decimal.
+            </p>
+            <code>
+                &nbsp; print("Esto es una cadena")
+            </code>
+        </section>
+        <br>
+        <section class="main-section" id="Operadores">
+            <header><strong> Operadores</strong></header>
+            <p>Un operador es un símbolo del lenguaje de programación el cual es capaz de realizar operaciones con los
+                valores. Cuando los datos y operadores se unen, forman juntos expresiones. La expresión más sencilla es
+                el literal</p>
+            <ul>
+                <li>Suma (+)</li>
+                <li>Resta (-)</li>
+                <li>Multiplicacion (*)</li>
+                <li>Division (/)</li>
+                <li>Division entera (//)</li>
+                <li>Modulo o residuo (%)</li>
+                <li>Exponente (**)</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Palabras_clave">
+            <header><strong> Palabras clave</strong></header>
+            <p>Son llamadas palabras claves o mejor dicho palabras reservadas. Son reservadas porque no se deben
+                utilizar como nombres: ni para variables, ni para funciones, ni para cualquier otra cosa que se desee
+                crear.
+                El significado de la palabra clave esta predefinido, y no debe cambiar.
+            </p>
+            <ul>
+                <li>class</li>
+                <li>def</li>
+                <li>del</li>
+                <li>lambda</li>
+                <li>try</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Funcion_round">
+            <header><strong>Funcion round()</strong></header>
+            <p>Su trabajo es redondear la salida del resultado al número de decimales específicos en el paréntesis, y
+                regresar un valor flotante.
+                Dentro de la función round() se puede encontrar el nombre de la variable, una coma, y el número de
+                decimales que se desea mostrar.
+            </p>
+            <code>
+                &nbsp; kilometros =12.25 <br>
+                &nbsp; millas_a_km = millas*1.61 <br>
+                &nbsp; print(millas,"millas",""son",round(millas_a_km,2),"kilometros")
+            </code>
+        </section>
+        <br>
+        <section class="main-section" id="Funcion_input">
+            <header><strong>Funcion input()</strong></header>
+            <p>
+                La función input() es capaz de leer datos que fueron introducidos por el usuario y pasar esos datos al
+                programa en ejecución.
+                Todos los programas leen y procesan datos. Un programa que no obtiene datos de entrada del usuario es un
+                programa sordo. <br>
+                La función input() es invocada sin argumentos, la función pondrá la consola en modo de entrada.
+                La función input() puede hacer algo más, puede mostrar un mensaje al usuario sin la ayuda de la función
+                print().
+            </p>
+            <code>
+                &nbsp; algo = input("Escribe algo...")
+                &nbsp; print("Mmm...",algo,"..."¿En serio?")
+            </code>
+        </section>
+        <br>
+        <section class="main-section" id="Condicionalif">
+            <header><strong>Condicional if</strong></header>
+            <p>
+                Esta declaración condicional consta de los siguientes elementos, estrictamente necesario en este orden:
+            </p>
+            <ul>
+                <li>La palabra clave if</li>
+                <li>espacio en blanco</li>
+                <li>una expresion cuyo valor se interpreta como True o False</li>
+                <li>Dos puntos, seguido de de una nueva linea</li>
+                <li>Una instrucción con sangría o un conjunto de instrucciones</li>
+            </ul>
+            <code>
+                &nbsp;if edad>=18: <br>
+                &nbsp;&nbsp; print("Eres mayor de edad")
+            </code>
+        </section>
+        <br>
+        <section class="main-section" id="Declaracionifelse">
+            <header><strong>Declaracion if-else</strong></header>
+            <p>
+                La parte del código que comienza con else dice que hacer si no se cumple la condición especificada por
+                el if.
+                La ejecución del if else es la siguiente:
+            </p>
+            <ul>
+                <li>Si la condición se evalúa como verdadero la instrucción ejecuta_si_condición_true se ejecuta, y la
+                    declaración condicional llega a su fin.</li>
+                <li>Si la condición se evalúa como Falso, la instrucción ejecuta_si_condición_false se ejecuta, y la
+                    declaración condicional llega a su fin.</li>
+            </ul>
+            <code>
+                &nbsp;if condicional_true_or_false: <br>
+                &nbsp;&nbsp;&nbsp;ejecuta_si_condición_true <br>
+                &nbsp;else: <br>
+                &nbsp;&nbsp;&nbsp;ejecuta_si_condición_false
+            </code>
+        </section>
+        <br>
+        <section class="main-section" id="Declaracionelif">
+            <header><strong>Declaracion elif</strong></header>
+            <p>
+                La declaración elif se usa para verificar más de una condición y para detener cuando se encuentra la primera declaración verdadera. <br>
+                La forma de ensamblar las siguientes declaraciones if - elif - else a veces se denomina cascada. <br>
+                Se debe prestar atención adicional a este caso:
+            </p>
+            <ul>
+                <li>No debes usar else sin un if precedente.</li>
+                <li>Else siempre es la última rama de la cascada, independientemente de si haz usado elif o no.</li>
+                <li>Else es una parte opcional de la cascada, y puede omitirse.</li>
+                <li>Si hay una rama else en la cascada, solo se ejecuta una de todas las ramas.</li>
+                <li>Si no hay una rama else, es posible que no se ejecute ninguna de las opciones disponibles.</li>
+            </ul>
+            <code>
+                &nbsp; if climabueno: <br>
+                &nbsp;&nbsp;&nbsp; iraCaminar() <br>
+                &nbsp; elif hayboletosdisponibles: <br>
+                &nbsp;&nbsp;&nbsp; iralCine() <br>
+                &nbsp; elif mesasLibres: <br>
+                &nbsp;&nbsp;&nbsp; almorzar() <br>
+                &nbsp; else: <br>
+                &nbsp;&nbsp;&nbsp; jugarAjedrezenCasa()
+            </code>
+        </section>
+    </main>
+    <footer>
+        <p>Para mas informacion haz <a href="https://pythoninstitute.org/" class="nav-link" target="_blank">click
+                aqui.</a></p>
+        <p>Copyright 2022</p>
+    </footer>
+</body>
+
+</html>
