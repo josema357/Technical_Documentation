@@ -1,0 +1,106 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: white;
+    background-image: url("https://fondosmil.com/fondo/31355.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+#navbar {
+    position: fixed;
+    font-size: 1.2rem;
+    height: 100%;
+    border-right: solid;
+    border-color: rgb(140, 137, 137);
+    background-color: rgba(0, 0, 0,0.3);
+}
+header{
+    font-size: 1.5rem;
+}
+
+#indice {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 1rem;
+}
+
+ol {
+    padding-left: 0;
+    margin: 0;
+}
+
+ol li {
+    list-style: none;
+    border-bottom: solid;
+    border-width: 1px;
+    padding: 0.6rem;
+}
+
+.nav-link {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(199, 193, 193);
+
+
+}
+
+#main-doc {
+    margin-left: 17.5rem;
+    padding: 2rem 3rem;
+    text-align: justify;
+    background-color: rgba(0, 0, 0,0.7);
+
+}
+.main-section{
+    word-wrap: break-word;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: right;
+    padding: 1rem 1rem;
+    position: relative;
+}
+@media(max-width: 810px) {
+    #navbar {
+        position: relative;
+        word-wrap: break-word;
+        border-right: 0;
+        height: auto;
+        padding: 0 1rem;
+    }
+    #indice{
+        text-align: center;
+    }
+    ol{
+        border: solid;
+        height: 15rem;
+        overflow: scroll;
+    }
+    #main-doc {
+        margin-left: 0;
+        padding: 2rem 3rem;
+        text-align: justify;
+    }
+}
+
+@media(max-width: 400px) {
+    #main-doc {
+        word-wrap: break-word;
+        padding: 2rem 0.5rem;
+    }
+
+    li {
+        word-wrap: break-word;
+    }
+}
+@media(max-width: 230px){
+    #navbar {
+        padding: 0;
+    }
+}
